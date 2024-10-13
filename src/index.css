@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url('https://source.unsplash.com/random/1920x1080?abstract,minimal');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(147, 51, 234, 0.8) 100%);
+}
+
+.content-overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+}
